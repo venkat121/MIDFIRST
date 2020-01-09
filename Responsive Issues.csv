@@ -1,0 +1,331 @@
+Status,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Done,"iPad_ Landscape-On Login page, white space is seen in footer",MID-5238,91613,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,shilpa.k.o2f,shilpa.k.o2f,10/15/2019 12:35,11/8/2019 9:42,11/12/2019 13:26,,,,UAT4-11/11,,Login,,0,Productteam_fix,,,,"iPad_ Landscape-On Login page, white space is seen in footer",,shilpa.k.o2f,sudha.vallapu,,,,,,,,,,,,,15/Oct/19 12:41 PM;shilpa.k.o2f;IMG_0478.PNG;https://kony-appfactory.atlassian.net/secure/attachment/73073/IMG_0478.PNG,05/Nov/19 7:13 AM;sudha.vallapu;LoginFooterLandscape.jpg;https://kony-appfactory.atlassian.net/secure/attachment/76200/LoginFooterLandscape.jpg,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,10/15/2019 0:00,,,,,,UI,,,High,,,,,,,10/15/2019 0:00,,{},,,,MID-1244,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzznbz:,,Yes,,Fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,Launch app,,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,10:50.4,,"24/Oct/19 11:10 AM;sudha.vallapu;[~accountid:5b7bb1aa2762c957ea6761c1]  Can you please share the device details to reproduce the issue.
+
+
+
+FYI [~accountid:557058:692a94b2-0b1a-43c9-81fd-e14564c3755d] ","05/Nov/19 7:13 AM;sudha.vallapu;[~accountid:5b7bb1aa2762c957ea6761c1]  The footer issue is fixed now. Please find the screenshot for the same and verify it in next build.
+
+",,,,,,,,,
+Done,OLB_Responsive_Cards: Alignment  is not proper  for text in cards,MID-5207,91495,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,10/14/2019 15:12,11/4/2019 18:17,11/12/2019 13:26,,,,UAT4-11/11,,,,0,,,,,"OLB_Responsive_Cards: Alignment  is not proper for  text messages while replace/Unlock the card 
+",,neeraja.ganji,,,,,,,,,,,,,,30/Oct/19 1:52 PM;tulasidas.bollabattini;image-20191030-125236.png;https://kony-appfactory.atlassian.net/secure/attachment/75344/image-20191030-125236.png,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,10/14/2019 0:00,,,,,,UI,,,Medium,,,,,,,10/14/2019 0:00,,{},,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzzmpr:,,Yes,,issue fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Launch & log into the application
+2. Navigate to Manage cards
+3. Tap on A Card
+4. Replace /Lock /Unlock a card
+
+Actual Result:  Alignment for text message is not proper
+Expected:  Alignment should be center/Message should be display completely ",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,,,,,,,,,,,,,
+Done,Responsive_Text in personal details need to be aligned properly.,MID-5199,91458,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,10/14/2019 13:42,11/11/2019 5:33,11/12/2019 13:26,,,,UAT4-11/11,,,,0,,,,,Text in personal details need to be aligned properly.,,5c484a4639ca604edaa687c9,neeraja.ganji,surender.appam,,,,,,,,,,,,05/Nov/19 2:06 PM;mohammed.tassaddique;1.jpg;https://kony-appfactory.atlassian.net/secure/attachment/76331/1.jpg,14/Oct/19 1:56 PM;neeraja.ganji;MID-5199.PNG;https://kony-appfactory.atlassian.net/secure/attachment/72900/MID-5199.PNG,08/Nov/19 11:28 AM;surender.appam;personal details.png;https://kony-appfactory.atlassian.net/secure/attachment/76961/personal+details.png,,,,,,,,,,,Defect,OLB,,,No,,,,,,Banking,,,,10/14/2019 0:00,,,,,,UI,,,Medium,,,,,,,10/14/2019 0:00,,{},,,SIT,MID-2195,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,IOS,Tablets,,,,,1|hzzmhr:,,Yes,,issue fixed,,,,,,,,,,,,,,,,,,Mock Services,,,MidFirst-OLB-Sprint19-1014,,"1. Login to the application in iPad.
+2. Navigate to personal details.
+3. Observe the text alignment.",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,02:25.1,,"05/Nov/19 2:02 PM;mohammed.tassaddique;Right Text can be more aligned to the left text.
+
+!1.jpg|width=1159,height=690!
+
+",08/Nov/19 11:28 AM;surender.appam;Fixed please find the attachment ,,,,,,,,,
+Done,OLB_Responsive_Transactions: Text is truncating in transaction  Search  history.,MID-5190,91422,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,10/14/2019 12:11,11/4/2019 18:17,11/12/2019 13:26,,,,UAT4-11/11,,,,0,Productteam_fix,,,,OLB_Responsive_Transactions: Text is truncating in transaction  Search  history after search perform in account details screen.,,neeraja.ganji,,,,,,,,,,,,,,,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,10/14/2019 0:00,,,,,,UI,,,Medium,,,,,,,10/14/2019 0:00,,{},,,SIT,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzzm9b:,,Yes,,fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Launch & log into the application.
+2. Tap on Any account 
+3. Tap on Search icon in transactions
+4. Enter search criteria & tap on search
+
+Actual Result:  Text is truncating for links
+Expected: Text should not truncate",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,,,,,,,,,,,,,
+Test Data,iPad_ Text cut is seen in Google charts items,MID-5168,91301,Bug,ReVerify,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,shilpa.k.o2f,shilpa.k.o2f,10/12/2019 14:14,11/4/2019 18:17,11/12/2019 13:26,,,,UAT4-11/11,,Dashboard_OLB,,0,Productteam_fix,,,,iPad_ Text cut is seen in Google charts items,,prasad.dumpa,sanjeev.kumar,shilpa.k.o2f,,,,,,,,,,,,16/Oct/19 1:58 PM;harikrishna.narra.o2f;234.jpg;https://kony-appfactory.atlassian.net/secure/attachment/73356/234.jpg,30/Oct/19 12:57 PM;sanjeev.kumar;nodefect.jpg;https://kony-appfactory.atlassian.net/secure/attachment/75320/nodefect.jpg,,,,,,,,,,,,Not-a-defect,OLB,,,,,,,,,Banking,,,,10/12/2019 0:00,,,,,,UI,,,Medium,,,,,,,10/12/2019 0:00,,{},,,,MID-2197,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,Desktop Native,,,,Not-a-defect,1|hzzljj:,,Yes,,Not able to reproduce.,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"login with valid credentials
+",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,28:26.4,,15/Oct/19 8:28 AM;prasad.dumpa;Can you please attach screenshot,30/Oct/19 12:37 PM;sanjeev.kumar;Unable to reproduce this and hence marking it for re-test. Please find the attached screen-shot (nodefect.jpg).,,,,,,,,,
+Done,"Responsive_""You are unlocking your card"" text must be left aligned.",MID-5120,91083,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Low,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,10/11/2019 13:19,11/4/2019 18:17,11/12/2019 13:26,,,,UAT4-11/11,,,,0,,,,,"""You are unlocking your card"" text must be left aligned.",,harikrishna.narra.o2f,neeraja.ganji,tulasidas.bollabattini,,,,,,,,,,,,11/Oct/19 2:34 PM;neeraja.ganji;MID-5120.jpg;https://kony-appfactory.atlassian.net/secure/attachment/72438/MID-5120.jpg,30/Oct/19 1:09 PM;tulasidas.bollabattini;image-20191030-120946.png;https://kony-appfactory.atlassian.net/secure/attachment/75323/image-20191030-120946.png,,,,,,,,,,,,Defect,OLB,,,No,,,,,,Banking,,,,10/11/2019 0:00,,,,,,UI,,,Low,,,,,,,10/11/2019 0:00,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2019-10-21T08:27:18.168+0200"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,SIT,MID-90,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,Android,Tablets,,,,,1|hzzkg7:,,Yes,,issue fixed,,,,,,,,,,,,,,,,,,Mock Services,,,MidFirst-OLB-Sprint19-1014,,"1. Login to the application.
+2. Navigate to cards.
+3. Tap on unlock card.
+4. Observe the warning text ""You are unlocking your card"" alignment.",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,12:00.7,,16/Oct/19 4:12 PM;tulasidas.bollabattini;issue fixed and committed,25/Oct/19 2:47 PM;harikrishna.narra.o2f;Blocked due to MID-5452,30/Oct/19 1:10 PM;tulasidas.bollabattini;please try with paras1231 user.,,,,,,,,
+Done,Responsive_iPhone_Manage Cards:  Text truncation in  for Locked cards.,MID-5054,90816,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,10/10/2019 12:53,11/4/2019 18:17,11/12/2019 13:26,,,,UAT4-11/11,,,,0,,,,,Responsive_iPhone_Manage Cards:  Text truncation in  for Locked cards.,,neeraja.ganji,,,,,,,,,,,,,,10/Oct/19 12:54 PM;neeraja.ganji;Locked Card.jpg;https://kony-appfactory.atlassian.net/secure/attachment/72154/Locked+Card.jpg,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,10/10/2019 0:00,,,,,,UI,,,Low,,,,,,,10/10/2019 0:00,,{},,,SIT,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzzivr:,,Yes,,issue fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Launch & log into the application.
+2. Tap on Manage Cards
+3. Lock a card and observe the message ",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,,,,,,,,,,,,,
+Done,Responsive_iPhone_prelogin: Text overlap is identified in login screen for error message.,MID-5052,90808,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,10/10/2019 12:26,11/4/2019 18:17,11/12/2019 13:26,,,,UAT4-11/11,,,,0,Productteam_fix,,,,Responsive_iPhone_prelogin: Text overlap is identified in login screen for error message.,,divyavani.kovuru.o2f,neeraja.ganji,sudha.vallapu,,,,,,,,,,,,30/Oct/19 1:06 PM;sudha.vallapu;LoginText.PNG;https://kony-appfactory.atlassian.net/secure/attachment/75322/LoginText.PNG,10/Oct/19 12:28 PM;neeraja.ganji;Text Overlap.jpg;https://kony-appfactory.atlassian.net/secure/attachment/72144/Text+Overlap.jpg,14/Oct/19 1:58 PM;divyavani.kovuru.o2f;Truncate.png;https://kony-appfactory.atlassian.net/secure/attachment/72901/Truncate.png,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,10/10/2019 0:00,,,,,,UI,,,Medium,,,,,,,10/10/2019 0:00,,"{repository={count=1, dataType=repository}, json={""cachedValue"":{""errors"":[],""summary"":{""repository"":{""overall"":{""count"":1,""lastUpdated"":""2019-10-12T06:32:55.000+0200"",""dataType"":""repository""},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,SIT,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzzitz:,,Yes,,Cannot Reproduce,,,,,,,,,,,,,,,,,,,,,,,"1.Launch the application 
+2. Enter credentials 
+3.Tap on Log in 
+
+Note:   This issues occurring intermittently ",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,55:55.6,,14/Oct/19 1:55 PM;divyavani.kovuru.o2f;[~accountid:5acd703ab783d22b5dadcf35] Error message is truncated. Attached screenshot.,"30/Oct/19 1:05 PM;sudha.vallapu;[~accountid:5c6fd8240413b7214a9726d9]  We are not able to reproduce the Truncation Issue. Please find the screenshot for the same .Can you please check and let us know if the issue still exists?
+
+
+
+FYI [~accountid:557058:692a94b2-0b1a-43c9-81fd-e14564c3755d] ",,,,,,,,,
+Done,Samsung Tab: Keypad is displayed when user clicks on Save button if phone number type is Mobile and Mobile primary phone number is already exist.,MID-5040,90639,Bug,ReVerify,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,divyavani.kovuru.o2f,divyavani.kovuru.o2f,10/9/2019 11:02,11/4/2019 18:17,11/12/2019 13:26,,SIT19 - 10/29 (OLB),,UAT4-11/11,,Profile Settings_OLB,,0,Productteam_fix,,,,Samsung Tab: Keypad is displayed when user clicks on Save button if phone number type is Mobile and Mobile primary phone number is already exist.,,divyavani.kovuru.o2f,,,,,,,,,,,,,,,,,,,,,,,,,,,Not Reproducible,OLB,,,,,,,,,Banking,,,,10/9/2019 0:00,,,,,,Functional,,,Medium,,,,,,,10/9/2019 0:00,,{},,,,MID-2195,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,Tablets,,,,,1|hzzhzb:,,Yes,,Not able to reproduce the issue,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Click on Add Phone Number or Edit Home/Work Phone number.
+2. Select Type as Mobile.
+3. Click on phone number and Enter phone number.
+4. Click on Save.",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,,,,,,,,,,,,,
+Reopened,Responsive_All Platforms_Transfers: Transaction Date is truncated and Extra space is displayed on acknowledgement screen.,MID-5014,90420,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,harikrishna.narra.o2f,harikrishna.narra.o2f,10/7/2019 8:54,11/4/2019 18:17,11/12/2019 13:26,,SIT19 - 10/29 (OLB),,UAT4-11/11,,Internal Transfers_OLB,,0,Productteam_fix,,,,Responsive_All Platforms_Transfers: Transaction Date is truncated and Extra space is displayed on acknowledgement screen.,,harikrishna.narra.o2f,,,,,,,,,,,,,,07/Oct/19 8:51 AM;harikrishna.narra.o2f;219.jpg;https://kony-appfactory.atlassian.net/secure/attachment/71667/219.jpg,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,10/7/2019 0:00,,,,,,UI,,,Medium,,,,,,,10/7/2019 0:00,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2019-11-04T15:00:36.597+0100"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzzgvz:,,Yes,,"fixed
+",,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1.Login to application
+2.Navigates to transfers
+3.Perform immediate transfer",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,,,,,,,,,,,,,
+Kony tested,(Mobile Browser) Activating search field in Locate ATM's  pulls List and Map view toggle above keyboard and on top of geolocation message,MID-4821,89269,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Low,,shilpa.k.o2f,cydney.dixon,cydney.dixon,9/27/2019 0:48,11/8/2019 9:42,11/12/2019 13:26,,OLB-Sprint15,,1,,,,0,CUSTOMER_REPORTED_ISSUE,,,,"(Mobile Browser) Activating search field in Locate ATM's  pulls List and Map view toggle above keyboard and on top of geolocation message
+
+ !Screenshot_20190924-210855_Chrome[1].jpg|thumbnail! ",,cydney.dixon,lalitha.viswanathan,ramapavan.kumar.truetech,,,,,,,,,,,,27/Sep/19 12:47 AM;cydney.dixon;Screenshot_20190924-210855_Chrome[1].jpg;https://kony-appfactory.atlassian.net/secure/attachment/70456/Screenshot_20190924-210855_Chrome%5B1%5D.jpg,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,9/26/2019 0:00,,,,,,UI,,,Low,,,,,,,9/26/2019 0:00,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2019-11-07T06:26:53.857+0100"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,MID-2200,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,Android,Wrapper,,,,,1|hzz9ef:,,No,,Please check out the comments,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Without logging in, tap on Locate Atms on mobile browser
+2. do not allow browser accewss
+3. Tap on search field 
+4. icons shift up 
+
+*note for testing: test both after and before logged in*",,,,,,,,,Customer - Third Party,SI Testing,,,,,No,,,,,In Progress,52:48.0,,28/Sep/19 10:52 PM;lalitha.viswanathan;[~accountid:5acd703ab783d22b5dadcf35] Pls review these issues shared by MF QA team as they were seeing couple of responsive issues blocking their functional review,07/Nov/19 7:11 AM;ramapavan.kumar.truetech;Done changes in the code.  Please test in the latest build.,,,,,,,,,
+Kony tested,(Mobile Browser) Message for GeoLocation has different card space for Map and List view ,MID-4820,89268,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Low,,shilpa.k.o2f,cydney.dixon,cydney.dixon,9/27/2019 0:41,10/30/2019 7:42,11/12/2019 13:26,,Mobile-S16,,1,,,,0,CUSTOMER_REPORTED_ISSUE,,,,"(Mobile Browser) Message for GeoLocation has different card space for Map and List view 
+List View
+
+!Screenshot_20190924-210823_Chrome[1].jpg|width=200,height=183!
+
+ 
+Map View 
+
+!Screenshot_20190924-210827_Chrome[1].jpg|width=200,height=183!
+
+ Also, scrolling down depicts large white space below list and map view with no footer. 
+
+*ss below*
+
+",,cydney.dixon,lalitha.viswanathan,prasad.dumpa,,,,,,,,,,,,27/Sep/19 12:38 AM;cydney.dixon;Screenshot_20190924-210823_Chrome[1].jpg;https://kony-appfactory.atlassian.net/secure/attachment/70454/Screenshot_20190924-210823_Chrome%5B1%5D.jpg,27/Sep/19 12:40 AM;cydney.dixon;Screenshot_20190924-210827_Chrome[1].jpg;https://kony-appfactory.atlassian.net/secure/attachment/70453/Screenshot_20190924-210827_Chrome%5B1%5D.jpg,27/Sep/19 12:44 AM;cydney.dixon;Screenshot_20190924-210846_Chrome[1].jpg;https://kony-appfactory.atlassian.net/secure/attachment/70455/Screenshot_20190924-210846_Chrome%5B1%5D.jpg,27/Sep/19 12:56 AM;cydney.dixon;Screenshot_20190924-211349_Chrome[1].jpg;https://kony-appfactory.atlassian.net/secure/attachment/70459/Screenshot_20190924-211349_Chrome%5B1%5D.jpg,27/Sep/19 12:56 AM;cydney.dixon;Screenshot_20190924-211357_Chrome[1].jpg;https://kony-appfactory.atlassian.net/secure/attachment/70458/Screenshot_20190924-211357_Chrome%5B1%5D.jpg,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,9/26/2019 0:00,,,,,,UI,,,Low,,,,,,,9/26/2019 0:00,,{},,,,MID-2200,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,Android,Wrapper,,,,,1|hzz9e7:,,No,,Please verify ,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Without logging into browser, tap locate atm's
+2. toggle between list and map view
+
+*note for testing: test both after and before logged in*",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,52:48.1,,28/Sep/19 10:52 PM;lalitha.viswanathan;[~accountid:5acd703ab783d22b5dadcf35] Pls review these issues shared by MF QA team as they were seeing couple of responsive issues blocking their functional review,30/Oct/19 7:42 AM;prasad.dumpa;Fixed.,,,,,,,,,
+Done,OLB Mobile browser: native keyboard causes white bar to appear,MID-4777,88929,Bug,ReVerify,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,julianne.reynolds,julianne.reynolds,9/25/2019 17:01,11/8/2019 9:42,11/12/2019 13:26,,,,1,,,,0,CUSTOMER_REPORTED_ISSUE,Productteam_fix,,,"When you select a field in mobile browser and the iPad keyboard populates, a white blank space is appearing above the keyboard that blocks information on the page. This happened in multiple fields across the website. This video was taken on an iPad in landscape mode.",,julianne.reynolds,lalitha.viswanathan,,,,,,,,,,,,,25/Sep/19 5:01 PM;julianne.reynolds;RPReplay_Final1569422859.MOV;https://kony-appfactory.atlassian.net/secure/attachment/70253/RPReplay_Final1569422859.MOV,,,,,,,,,,,,,Not Reproducible,OLB,,,,,,,,,Banking,,,,9/25/2019 0:00,,,,,,UI,,,Medium,,,,,,,9/25/2019 0:00,,{},,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,Others,,,,,1|hzz7u7:,,No,,not able to reproduce the issue.,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,,,Customer - Third Party,SI Testing,,,,,TBD,,,,,In Progress,47:11.3,,"25/Sep/19 6:47 PM;lalitha.viswanathan;[~accountid:557058:62bfaef8-3389-4d8a-8315-879ed468ab6a] , [~accountid:5acd703ab783d22b5dadcf35] , [~accountid:557058:c053bfa4-02b6-453b-b1e1-7add55c4507b]  FYR and feedback and if this is being resolved with 4.2.4?",,,,,,,,,,
+Production test,PROD_ONLY_TEST_FEASIBILITY - Continuous loading indicator is showing when user clicks on Yes on pop up window after user enters invalid expiry date and click confirm.,MID-4398,84596,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,divyavani.kovuru.o2f,divyavani.kovuru.o2f,divyavani.kovuru.o2f,9/4/2019 16:14,11/9/2019 9:25,11/12/2019 13:26,,OLB-Sprint15,,1,,Manage Cards_OLB,,0,PROD_ONLY_TEST_FEASIBILITY,,,,Continuous loading indicator is showing when user clicks on Yes on pop up window after user enters invalid expiry date and click confirm.,,divyavani.kovuru.o2f,lalitha.viswanathan,,,,,,,,,,,,,,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,9/4/2019 0:00,,,,,,Functional,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,9/4/2019 0:00,,{},,,,MID-90,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzyhmn:,,No,,Please test in UAT env.,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Click on Activate card.
+2. Enter invalid expiry date and CVV.
+3. Click confirm.",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,54:23.5,,09/Sep/19 9:17 AM;divyavani.kovuru.o2f;Can’t be validated in SIT and need to be validated in UAT environment.,11/Sep/19 2:54 PM;lalitha.viswanathan;[~accountid:5a70a0804127a4510dbbdb92] How has dev team planned to validate these at your end - hope code reviews are done on fixes to ensure these will be functional when tested in Prod environment?,,,,,,,,,
+Done,OLB_Responsive_Account Dashboard: Not able to close the contextual window.,MID-4387,84547,Bug,ReVerify,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,harikrishna.narra.o2f,harikrishna.narra.o2f,9/4/2019 14:04,11/8/2019 9:42,11/12/2019 13:26,,OLB-Sprint15,SIT19 - 10/29 (OLB),1,UAT4-11/11,Accounts & Transactions_OLB,,0,DBX_PLATFORM_ISSUE,Productteam_fix,,,OLB_Responsive_Account Dashboard: Not able to close the contextual window.,,5c93396491f5f92e0c896aa6,harikrishna.narra.o2f,prasad.dumpa,preetish.tadepalli,,,,,,,,,,,04/Sep/19 1:59 PM;harikrishna.narra.o2f;153.jpg;https://kony-appfactory.atlassian.net/secure/attachment/66469/153.jpg,,,,,,,,,,,,,Not-a-defect,OLB,,,,,,,,,Banking,,,,9/4/2019 0:00,,,,,,Responsive,,,Medium,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,9/4/2019 0:00,,{},,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzygyn:,,No,,Please check comments,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1.Login to application
+2.Tap on contextual menu",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,53:10.0,,05/Sep/19 10:53 AM;prasad.dumpa;Please verify in base app as well,"10/Sep/19 11:55 AM;gaurav.kumar;[~accountid:5acd703ab783d22b5dadcf35]
+Same as Base app.","27/Sep/19 11:46 AM;gaurav.kumar;[~accountid:5acd703ab783d22b5dadcf35]
+We are able to close the contextual menu view only by clicking on the menu icon.
+If we click on any outer scope view, menu is still open. This is same as per the base app. No fixes in 4.2.4","07/Nov/19 1:09 PM;preetish.tadepalli;Hi [~accountid:5acd703ab783d22b5dadcf35] ,
+
+This is the expected behaviour in the base app and hence not an issue. 
+
+FYI: [~accountid:557058:692a94b2-0b1a-43c9-81fd-e14564c3755d] , [~accountid:557058:07196ede-6963-453c-8352-865e46165015] ","08/Nov/19 4:39 AM;prasad.dumpa;Hi Preetish,
+
+Though it is base app behaviour, is there a way we can fix this issue.? Please check.",,,,,,
+Done,OLB_Responsive_One Time payment: Getting No registered recipient available message is displayed by default and Username is displayed in search field.,MID-4374,84370,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,harikrishna.narra.o2f,harikrishna.narra.o2f,9/3/2019 15:50,11/11/2019 5:33,11/12/2019 13:26,,OLB-Sprint15,,1,,Bill Payment_OLB,,0,DBX_PLATFORM_ISSUE,,,,"OLB_Responsive_One Time payment: Getting No registered recipient available message is displayed by default and Username is displayed in search field.
+
+150",,5cc058efbba9e20fca274c20,harikrishna.narra.o2f,tulasidas.bollabattini,,,,,,,,,,,,,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,9/3/2019 0:00,,,,,,UI,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,9/3/2019 0:00,,{},,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzyfzb:,,No,,Issue fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1.Login to application
+2.Navigates to make one time payment",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,40:25.0,,"04/Sep/19 2:40 PM;janakiram.damerla;[~accountid:5acd703ab783d22b5dadcf35] saved credentials are auto populating text box, thats why we are getting “No registered recipient avaialble” Error. its browser specific issue. we already raised platform issue: *Ticket #128215*",08/Nov/19 3:47 PM;tulasidas.bollabattini;Issue got fixed,,,,,,,,,
+Done,OLB_Responsive_Contextual menu: Contextual Menu options are displayed in other location.,MID-4304,83789,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,harikrishna.narra.o2f,harikrishna.narra.o2f,8/29/2019 15:13,11/8/2019 9:42,11/12/2019 13:26,,OLB-Sprint15,SIT19 - 10/29 (OLB),1,UAT4-11/11,Accounts & Transactions_OLB,,0,Productteam_fix,,,,OLB_Responsive_Contextual menu: Contextual Menu options are displayed in other location.,,5c93396491f5f92e0c896aa6,harikrishna.narra.o2f,prasad.dumpa,,,,,,,,,,,,29/Aug/19 3:11 PM;harikrishna.narra.o2f;137.jpg;https://kony-appfactory.atlassian.net/secure/attachment/65790/137.jpg,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,8/29/2019 0:00,,,,,,UI,,,Medium,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,8/29/2019 0:00,,{},,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzyd33:,,Yes,,Fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1.Login to application
+2.Tap on contextual Menu",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,35:18.0,,29/Aug/19 3:35 PM;prasad.dumpa;Can you please check in Base app,"30/Aug/19 10:40 AM;gaurav.kumar;[~accountid:5acd703ab783d22b5dadcf35] 
+
+In Base App 4.2.4 alignment is right. No issue there.",15/Oct/19 12:45 PM;gaurav.kumar;[~accountid:5acd703ab783d22b5dadcf35]  Mentioned issue is fixed as part of upgradation,16/Oct/19 4:40 PM;harikrishna.narra.o2f;Issue is reproducible in MB,,,,,,,
+Done,"Manage Cards_Activate Card  _ ""X"" symbol is showing on Eye icon for Confirm PIN and Enter CVV fields ",MID-4286,83656,Bug,ReVerify,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,8/29/2019 10:48,11/8/2019 9:42,11/12/2019 13:26,,OLB-Sprint15,,1,UAT4-11/11,Manage Cards_OLB,,0,,,,,"Manage Cards_Activate Card  _ ""X"" symbol is showing on Eye icon for Confirm PIN and Enter CVV fields and Eye Icon type is not functioning  for Visible and non-visible 
+
+",,neeraja.ganji,tulasidas.bollabattini,,,,,,,,,,,,,29/Aug/19 10:47 AM;neeraja.ganji;Cross Mark in Active Card.PNG;https://kony-appfactory.atlassian.net/secure/attachment/65710/Cross+Mark+in+Active+Card.PNG,29/Aug/19 10:47 AM;neeraja.ganji;Cross Mark in Active Card.PNG;https://kony-appfactory.atlassian.net/secure/attachment/65709/Cross+Mark+in+Active+Card.PNG,29/Aug/19 10:47 AM;neeraja.ganji;Cross Mark in confirm pin.PNG;https://kony-appfactory.atlassian.net/secure/attachment/65708/Cross+Mark+in+confirm+pin.PNG,07/Nov/19 3:59 PM;tulasidas.bollabattini;image-20191107-145921.png;https://kony-appfactory.atlassian.net/secure/attachment/76786/image-20191107-145921.png,07/Nov/19 4:00 PM;tulasidas.bollabattini;image-20191107-150013.png;https://kony-appfactory.atlassian.net/secure/attachment/76787/image-20191107-150013.png,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,8/29/2019 0:00,,,,,,UI,,,Medium,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,8/29/2019 0:00,,{},,,,MID-1218,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzyckv:,,No,,Unable to reproduce in Latest code base,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,Navigate to activate card fow,,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,56:06.1,,07/Nov/19 3:56 PM;tulasidas.bollabattini;Unable to reproduce in Latest code base,,,,,,,,,,
+ Test Data,"Manage Cards_ Activate Card _ Unable to Activate New Card, Confirmation button is not enabled even after entering New & Confirm PIN",MID-4285,83653,Bug,ReVerify,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,8/29/2019 10:38,11/8/2019 9:42,11/12/2019 13:26,,OLB-Sprint15,,1,,Manage Cards_OLB,,0,,,,," !image-2019-08-29-14-06-03-339.png|thumbnail! 
+Manage Cards_ Activate Card _ Unable to Activate New Card, Confirmation button is not enabled even after entering New & Confirm PIN",,divyavani.kovuru.o2f,lalitha.viswanathan,neeraja.ganji,prasad.dumpa,sree.somanchi,tulasidas.bollabattini,,,,,,,,,29/Aug/19 10:34 AM;neeraja.ganji;image-2019-08-29-14-06-01-462.png;https://kony-appfactory.atlassian.net/secure/attachment/65704/image-2019-08-29-14-06-01-462.png,29/Aug/19 10:34 AM;neeraja.ganji;image-2019-08-29-14-06-03-339.png;https://kony-appfactory.atlassian.net/secure/attachment/65703/image-2019-08-29-14-06-03-339.png,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,8/29/2019 0:00,,,,,,Functional,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,8/29/2019 0:00,,{},,,,MID-1218,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzyckf:,,Yes,,plz test and confirm so that we move to QA,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"Login with user where the card is yet to be activated 
+Click on Activate Card ",,,,,,,,,Kony Testing Team,SI Testing,,,,,Yes,,,,,In Progress,03:30.5,,"05/Sep/19 11:24 AM;neeraja.ganji;As we don't have test data for Activate card, blocking the ticket",06/Sep/19 9:03 AM;divyavani.kovuru.o2f;Still able to recreate issue.,"07/Sep/19 1:15 PM;prasad.dumpa;Hi [~accountid:557058:869bcc48-f4a4-468a-bf1d-e5d53d1532bc] Base app has a restriction for consecutive numbers(1234,2345…) as PIN in Manage cards. QA raised tickets to allow them as PIN. Could you please review and suggest on this.","09/Sep/19 3:53 AM;lalitha.viswanathan;[~accountid:5acd703ab783d22b5dadcf35] Is that same rule implemented in mobile app as well for PIN - do not allow consective numbers?
+
+
+
+","09/Sep/19 9:24 AM;prasad.dumpa;Hi [~accountid:557058:869bcc48-f4a4-468a-bf1d-e5d53d1532bc] it is also same as 4405. Please review and update on this.
+
+[~accountid:5a70a0804127a4510dbbdb92]",12/Sep/19 10:11 PM;lalitha.viswanathan;[~accountid:5acd703ab783d22b5dadcf35] Discussed with Brandon; no restriction on PIN should be applied (consecutive #s) except for size restriction. We need to remove this from OLB. Pls fix this/enable in next sprint,"14/Oct/19 1:08 PM;neeraja.ganji;Blocked Due to Test Data, Need to validate once cards data is available.","23/Oct/19 4:43 PM;tulasidas.bollabattini;[~accountid:5b045c5e88b9401b709201ff] please provide user having deactivated card.
+
+mohan123/paras1231 doesn’t have deactivated cards.","23/Oct/19 6:10 PM;sree.somanchi;[~accountid:557058:3cba7b81-5506-4417-8615-9131127c5037]  what do you mean by DEACTIVATED cards? user having no active cards?
+
+[~accountid:5a54486feb8cdb7a2cb27884]  is the person who developed the cards, please reach out to him.
+
+Apart from creating a valid test card, everything can be done by the developer.
+
+Call me on my mobile/what's up if required. +1 551 998 5767",07/Nov/19 3:55 PM;tulasidas.bollabattini;Unable to reproduce in Latest code base,07/Nov/19 3:55 PM;tulasidas.bollabattini;please see the comment
+Reopened,S10 and iPhone 7 plus: Category and cancel(x) are overlapped/Tag and cancel(x) and cancel(x) is truncated when user search for category and Tags on advanced search page. Attached screenshot.,MID-4260,83262,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,divyavani.kovuru.o2f,divyavani.kovuru.o2f,8/27/2019 11:05,11/8/2019 9:42,11/12/2019 13:26,,OLB-Sprint15,,1,UAT4-11/11,Accounts & Transactions_OLB,,0,DBX_PLATFORM_ISSUE,Productteam_fix,,,S10 and iPhone 7 plus: Category and cancel(x) are overlapped/Tag and cancel(x) and cancel(x) is truncated when user search for category and Tags on advanced search page. Attached screenshot.,,divyavani.kovuru.o2f,ram.gurijala.technofacts,,,,,,,,,,,,,27/Aug/19 11:07 AM;divyavani.kovuru.o2f;Screenshot_20190828-141918_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/65282/Screenshot_20190828-141918_Chrome.jpg,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,8/27/2019 0:00,,,,,,UI,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,8/27/2019 0:00,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2019-11-06T06:33:00.455+0100"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,MID-1245,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,Tablets,,,,,1|hzy933:,,No,,fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Click on account.
+2. Click on search.
+3. Select Category and select tag.
+4. Click on Search.",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,08:00.8,,"03/Oct/19 4:08 PM;ram.gurijala.technofacts;This issue exist in base app also . I have created product ticket.
+
+ *Ticket #131188*",,,,,,,,,,
+Done,Stolen card acknowledgement page issues,MID-4223,83153,Bug,ReVerify,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,shilpa.k.o2f,shilpa.k.o2f,8/26/2019 17:15,11/8/2019 9:42,11/12/2019 13:26,,OLB-Sprint15,,1,UAT4-11/11,Manage Cards_OLB,,0,,,,,"1. card is cancelled image is displayed on card image
+2. Call customer care link should be seen
+3.Replace card should be there",,lalitha.viswanathan,neeraja.ganji,shilpa.k.o2f,shyamprasad.uppugalla,sree.somanchi,tulasidas.bollabattini,,,,,,,,,,,,,,,,,,,,,,Not Reproducible,OLB,,,,,,,,,Banking,,,,8/26/2019 0:00,,,,,,UI,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,8/26/2019 0:00,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2019-11-06T06:33:00.455+0100"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,MID-1218,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzy8jb:,,No,,"""plz test and confirm so that we move to QA""
+
+
+tested and confirmed with Shilpa. please verify.",,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"click on manage cards
+click on report card
+select Stolen from dropdown
+click on confirm
+Enter PIN and click continue",,,,,,,,,Kony Testing Team,SI Testing,,,,,Yes,,,,,In Progress,48:21.1,,30/Aug/19 8:48 AM;shyamprasad.uppugalla;For the point 1 we are showing as per base product. This is discussed with lalitha and she said it is fine. ,"05/Sep/19 3:09 PM;neeraja.ganji;As we don't have test data, blocking the ticket
+","06/Sep/19 4:23 PM;shilpa.k.o2f;As this is test data related issues cannot be verified in QA environment, Assigning it to you.","12/Sep/19 10:13 PM;lalitha.viswanathan;[~accountid:5b045c5e88b9401b709201ff] Can u pls enable Shilpa as we need screenshot of what we are referring here.
+
+
+
+[~accountid:5acd703ab783d22b5dadcf35]  Hope invison wires were followed for above scope detailed here?","12/Sep/19 11:31 PM;sree.somanchi;[~accountid:5a54c1ecc3c6ae7b0e62bde8]  can you call me tomorrow post sync up call. also ask Shilpa and neeraja on what is required for this ticket to get tested.
+
+[~accountid:5b7bb1aa2762c957ea6761c1]  [~accountid:5b9658108a44a2467cd6e81a]  what is required here?",03/Oct/19 4:13 PM;shyamprasad.uppugalla;Please check with sree on this for test data.,14/Oct/19 1:37 PM;neeraja.ganji;Blocked due to Cards Test Data.,"01/Nov/19 3:38 PM;tulasidas.bollabattini;[~accountid:5b045c5e88b9401b709201ff] : With the support provided in MID 5452, I am able to proceed with lock/unclock scenarios. Thanks\!
+
+I have few stolen card scenarios. Can you please help/guide me to activate them once i made them stolen.",,,
+Reopened,OLB-Application does not exit after security warning is acknowledged,MID-3885,80362,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,High,,divyavani.kovuru.o2f,Lini.Karmarkar,Lini.Karmarkar,8/9/2019 0:34,11/8/2019 15:40,11/12/2019 13:26,,,,1,,,,0,,,,,"When a security alert is displayed on the screen, and it is acknowledged, application keeps loading.  Application should go back to login. ",,divyavani.kovuru.o2f,lalitha.viswanathan,Lini.Karmarkar,naveen.adepu,prasad.dumpa,,,,,,,,,,09/Aug/19 12:37 AM;Lini.Karmarkar;Snag_4ea060bf.png;https://kony-appfactory.atlassian.net/secure/attachment/61974/Snag_4ea060bf.png,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,8/8/2019 0:00,,,,,,Security,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,8/8/2019 0:00,,{},,,,MID-1244,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,Thin Client,,,,,1|hzxsev:,,Yes,,"Lini is looking for screenshots,  can you retest and get us some screenshots?",,,,,,,,,,,,,,,,,,,,,,,"login to OLB application. Due to InAuth score being higher than the threshold, a security alert pops up. Dismiss the alert and observe the screen.",,,,,,,,,Customer - Third Party,SI Testing,,,,,TBD,,,,,In Progress,42:04.0,,03/Sep/19 11:42 AM;prasad.dumpa;Please handle the loading indicator in error scenarios and navigate the user to Login screen.,12/Oct/19 9:37 AM;divyavani.kovuru.o2f;Verified and issue is fixed. Please verify in SIT-10/14 build.,17/Oct/19 6:41 AM;Lini.Karmarkar;The security alert did not pop up. May be we are overriding the InAuth score. I will check with Matt. ,"18/Oct/19 12:24 AM;Lini.Karmarkar;I cannot test this here since my InBrowser score is not high enough to hit this case. Kony team, could you test it for me and send the screen shots? 
+
+Thanks\!","31/Oct/19 7:54 AM;lalitha.viswanathan;[~accountid:557058:c6e22d33-e0d1-46dd-af9b-61b636673ba3] Can I get help here , for inputs Lini needs to help her close?",01/Nov/19 3:12 PM;naveen.adepu;[~accountid:557058:869bcc48-f4a4-468a-bf1d-e5d53d1532bc] - We need to install malware or some plugins in the browser to run into this case. I prefer sending this to offshore team to get screenshots as per Lini’s request.,01/Nov/19 3:14 PM;naveen.adepu;[~accountid:5c6fd8240413b7214a9726d9] - Can you please get us the screenshots captured while testing the flow and attach with the ticket?,08/Nov/19 3:28 PM;divyavani.kovuru.o2f;We have taken help from offshore team to replicate the issue. They decreased the acceptable browser score to <20 in settings and thus we able to reproduced the issue. We haven't captured any screenshots that time.,08/Nov/19 3:40 PM;naveen.adepu;Can you capture them now and share it with us? ,,
+Done,Responsive_iPhone/ Samsung S10- UI issues in profile settings,MID-3438,77754,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,shilpa.k.o2f,shilpa.k.o2f,7/26/2019 14:30,11/11/2019 5:33,11/12/2019 11:05,,OLB-S12,,1,,Profile Settings_OLB,,0,DBX_PLATFORM_ISSUE,Productteam_fix,Responsive_Mode_Issue,,iPhone/ Samsung S10- UI issues in profile settings,,anumohan.sagani,prasad.dumpa,shilpa.k.o2f,,,,,,,,,,,,26/Jul/19 2:31 PM;shilpa.k.o2f;Screenshot_20190726-174956_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/59274/Screenshot_20190726-174956_Chrome.jpg,26/Jul/19 2:31 PM;shilpa.k.o2f;Screenshot_20190726-175008_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/59273/Screenshot_20190726-175008_Chrome.jpg,26/Jul/19 2:31 PM;shilpa.k.o2f;Screenshot_20190726-175016_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/59275/Screenshot_20190726-175016_Chrome.jpg,26/Jul/19 2:31 PM;shilpa.k.o2f;Screenshot_20190726-175023_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/59277/Screenshot_20190726-175023_Chrome.jpg,26/Jul/19 2:31 PM;shilpa.k.o2f;Screenshot_20190726-175031_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/59272/Screenshot_20190726-175031_Chrome.jpg,26/Jul/19 2:31 PM;shilpa.k.o2f;Screenshot_20190726-175036_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/59276/Screenshot_20190726-175036_Chrome.jpg,26/Jul/19 2:31 PM;shilpa.k.o2f;Screenshot_20190726-175042_Chrome.jpg;https://kony-appfactory.atlassian.net/secure/attachment/59278/Screenshot_20190726-175042_Chrome.jpg,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,7/26/2019 0:00,,,,,,UI,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,7/26/2019 0:00,,{},,,,MID-2195,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzxcs7:,,No,,Settings are not supposed to be opened on Mobile responsive,,,,,,,,,,,,,,,,,,,,,OLB-Sprint12,,"login with valid credentials
+click on profile settings from menu",,,,,,,,,Kony Testing Team,SI Testing,,,,,No,,,,,In Progress,52:23.5,,29/Jul/19 1:52 PM;prasad.dumpa;Profile settings in Mobile view is a Platform issue,31/Jul/19 4:44 PM;anumohan.sagani;assigning to Madhav,"03/Oct/19 4:52 PM;prasad.dumpa;[~accountid:557058:62bfaef8-3389-4d8a-8315-879ed468ab6a] Similar to alert settings, we have this for Profile settings in responsive view.
+
+[~accountid:557058:869bcc48-f4a4-468a-bf1d-e5d53d1532bc] FYI",,,,,,,,
+Konytest,Date Picker for Transfers: Shows Dates outside of month but are disabled ,MID-3134,75144,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,mohammed.tassaddique,cydney.dixon,cydney.dixon,7/12/2019 16:08,11/11/2019 15:05,11/12/2019 13:26,,S10,,1,,,,0,CUSTOMER_REPORTED_ISSUE,DBX_PLATFORM_ISSUE,PRODUCT_OOB,Productteam_fix,"Generally in other apps I've experienced that when the user taps a date > this month's days, it will shift the user into the next month. Right now the user clicks and nothing happens.  
+Also the future dates are disabled, indicating the user can't select them. 
+[~accountid:557058:869bcc48-f4a4-468a-bf1d-e5d53d1532bc] was unsure how this is intended to work and requested this Jira issue for research. ",,5c484a4639ca604edaa687c9,cydney.dixon,janine.collins,lalitha.viswanathan,pramod.kalluri,prasad.dumpa,,,,,,,,,12/Jul/19 4:08 PM;cydney.dixon;0B96D364-FAC4-4998-AC08-2E9F892EBAC6.MP4;https://kony-appfactory.atlassian.net/secure/attachment/57539/0B96D364-FAC4-4998-AC08-2E9F892EBAC6.MP4,,,,,,,,,,,,,Defect,OLB,,,,,,,,Product OOB,Banking,,,,7/9/2019 0:00,,,,,,UI,,,Medium,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,7/12/2019 0:00,,{},,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,Chrome,DesktopWeb,,,,Defect,1|hzx107:,,Yes,,"Will not show the next month dates.
+
+Committed for transfers --> Post show",,,,,,,,,,,,,,,,,,,,,MidFirst-OLB-Sprint19-1014,,"1. Tap Transfer & Pay on the nav bar
+2. Select an internal account 
+3. Select From/To accounts, enter amount, and select a frequency that is not ""today""
+4. Dates outside of this one are disabled; tapping registers no response 
+",,,,,,,,,Customer - Third Party,UA Testing,,,,,No,,,,,In Progress,33:27.0,,"15/Jul/19 6:33 AM;lalitha.viswanathan;[~prasad.dumpa] , [~neeraja.ganji]  FYR","15/Jul/19 12:17 PM;prasad.dumpa;[~lalitha.viswanathan] Calendar component is from RB Base app. If need any modifications, we may need to change the widget. Please let us know if need any changes.
+
+[~anumohan.sagani][~neeraja.ganji] FYR.","26/Jul/19 12:22 AM;lalitha.viswanathan;[~cydney.dixon]  The behavior of calendar widget is current default widget behavior that is OOB. To select a date belonging to next month, we need to move to next month via '>' to select dates.
+
+
+
+[~janine.collins]  Pls review and let us know if you expect a different behavior?","26/Jul/19 2:51 PM;janine.collins;[~lalitha.viswanathan] when I look at other apps calendars, the standard behavior I am finding is if the customer taps on a date outside of the current month, the calendar automatically rolled to the next month and allow the customer to select the date. ",12/Aug/19 4:05 AM;lalitha.viswanathan;[~accountid:557058:c053bfa4-02b6-453b-b1e1-7add55c4507b]  Pls review this with product team for resolving this.,"23/Oct/19 10:54 AM;pramod.kalluri;The fix for the same is available on 8.4.41 plugins where we need to write a line of code for not showing the dates.
+
+[~accountid:557058:869bcc48-f4a4-468a-bf1d-e5d53d1532bc] [~accountid:557058:c053bfa4-02b6-453b-b1e1-7add55c4507b][~accountid:5a70a0804127a4510dbbdb92] [~accountid:5acd703ab783d22b5dadcf35] FYI...........","11/Nov/19 1:01 PM;mohammed.tassaddique;As discussed in comments, The dates from next month must not be visible in the calendar. But currently it is visible.
+Hence reopening the defect.",11/Nov/19 1:04 PM;prasad.dumpa;We have upgraded to 8.4.50. now. We can write the logic to restrict.,11/Nov/19 1:22 PM;pramod.kalluri;Please test in next build,,
+Reopened,"""Transfer Money-Kony DBX account-Select Frequency any frequency-Displayed how long, Start date and End date-Rotate phone-Not showing Amount, how long, End date fields. Issue is happening for all the frequencies._Transfers_Iphone X",MID-2907,71248,Bug,Ready For Test,MID,MidFirst-Bank,software,moni.thomas,,,Medium,,shilpa.k.o2f,neeraja.ganji,neeraja.ganji,6/28/2019 15:37,11/4/2019 18:17,11/12/2019 13:26,,,,1,,Internal Transfers_OLB,,0,DBX_PLATFORM_ISSUE,Productteam_fix,,,"""Transfer Money-Kony DBX account-Select Frequency any frequency-Displayed how long, Start date and End date-Rotate phone-Not showing Amount, how long, End date fields. Issue is happening for all the frequencies._Transfers_Iphone X",,neeraja.ganji,prasad.dumpa,,,,,,,,,,,,,,,,,,,,,,,,,,Defect,OLB,,,,,,,,,Banking,,,,6/28/2019 0:00,,,,,,UI,,,High,,,"Sample flow:
+
+Pay bill
+
+· When user click pay bill button the facial recognition flow should be executed and if successful the flow moves to the processing transaction and tick box form and continue button
+
+· If recognition fails there should be an alert and return to the payment screen
+
+· Pay person
+
+· After selecting payee and hit the Pay button the facial recognition flow should be executed.
+
+· As above, success enter the transaction processing phase, and failure returns to the pay screen",,,,6/28/2019 0:00,,{},,,,,,,,Demo team cloud / EC2 Instance,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,iPhone -> iPhone XS Max (iOS 12),,,DesktopWeb,,,,,1|hzwj33:,,Yes,,fixed,,,,,,,,,,,,,,,,,,,,,MidFirst-Sprint10,,"""Transfer Money-Kony DBX account-Select Frequency any frequency-Displayed how long, Start date and End date-Rotate phone-Not showing Amount, how long, End date fields. Issue is happening for all the frequencies._Transfers_Iphone X",,,,,,,,,Kony Testing Team,SI Testing,,,,,Yes,,,,,In Progress,21:13.8,,07/Oct/19 8:21 AM;prasad.dumpa;Please verify in 4.2.4,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
